@@ -18,7 +18,7 @@ namespace BlogProject.Models
         public string Text { get; set; }
 
         public virtual Post Post { get; set; }
-        public virtual IdentityUser Author { get; set; }
+        public virtual BlogUser Author { get; set; }
 
     }
 }
