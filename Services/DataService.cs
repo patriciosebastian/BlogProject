@@ -66,8 +66,8 @@ namespace BlogProject.Services
             // setting EmailConfirmed bool to true for dev purposes. DELETE THIS COMMENT
             var adminUser = new BlogUser()
             {
-                Email = "example@example.com",
-                UserName = "example@example.com",
+                Email = "cfblogtestemail@gmail.com",
+                UserName = "cfblogtestemail@gmail.com",
                 FirstName = "John",
                 LastName = "Smith",
                 DisplayName = "ExAdmin",
